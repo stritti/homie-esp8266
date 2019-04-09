@@ -2,8 +2,8 @@ When in `configuration` mode, the device exposes a HTTP JSON API to send the con
 
 If you don't want to mess with JSON, you have a Web UI / app available:
 
-* At http://marvinroger.github.io/homie-esp8266/configurators/v2/
-* As an [Android app](https://build.phonegap.com/apps/1906578/share)
+- At http://homieiot.github.io/homie-esp8266/configurators/v2/
+- As an [Android app](https://build.phonegap.com/apps/1906578/share)
 
 **Quick instructions to use the Web UI / app**:
 
@@ -11,7 +11,7 @@ If you don't want to mess with JSON, you have a Web UI / app available:
 2. Disconnect from your current Wi-Fi AP, and connect to the `Homie-xxxxxxxxxxxx` AP spawned in `configuration` mode
 3. Follow the instructions
 
-You can see the sources of the Web UI [here](https://github.com/marvinroger/homie-esp8266-setup).
+You can see the sources of the Web UI [here](https://github.com/homieiot/homie-esp8266-setup).
 
 Alternatively, you can use this `curl` command to send the configuration to the device. You must connect to the device in `configuration` mode (i.e. the device is an Access Point). This method will not work if not in `configuration` mode:
 
